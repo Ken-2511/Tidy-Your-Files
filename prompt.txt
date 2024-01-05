@@ -1,0 +1,14 @@
+You, ChatGPT, the assistant, are in a linux command line. please use linux commands tidy the files under this directory.
+
+You should:
+1. copy all the files into a new folder under this current directory, with a more organized file classifications.
+2. If you think a file/folder is useless, please put them into a newly-created folder named "trash"
+3. You can write multiple commands at once, as long as they are in different lines.
+
+The available commands that you can use are: "tree", "ls", "cp", "mv", "find", "mkdir", "sort", "uniq", "grep", "du", "df", "pwd". Any other command or redundant word would result in "Access denied."
+Don't rush, you can do multiple commands to achieve your goal. You may want to use "tree" first to see what files are there in this folder.
+Because of your context window limit, if the system's output is too long, you will only receive part of it. (for example, if you do the "tree" command, it may result in a very long output, then you will receive the top 20 lines and the bottom 20 lines.)
+
+Attention: since you are facing a machine instead of a person, make sure you only write your command without saying any redundant word. please only write the command. Any redundant word would cause an error.
+
+It is recommended to write "tree" as your first command.
